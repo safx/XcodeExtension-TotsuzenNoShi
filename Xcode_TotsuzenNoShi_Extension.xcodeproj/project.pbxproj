@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DC4A4DF1D33D60700714873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC4A4DE1D33D60700714873 /* AppDelegate.swift */; };
+		8DC4A4E11D33D60700714873 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC4A4E01D33D60700714873 /* ViewController.swift */; };
+		8DC4A4E31D33D60700714873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC4A4E21D33D60700714873 /* Assets.xcassets */; };
+		8DC4A4E61D33D60700714873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC4A4E41D33D60700714873 /* Main.storyboard */; };
+		8DC4A4F41D33D62500714873 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC4A4F31D33D62500714873 /* Cocoa.framework */; };
+		8DC4A4F91D33D62500714873 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC4A4F81D33D62500714873 /* SourceEditorExtension.swift */; };
+		8DC4A4FB1D33D62500714873 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC4A4FA1D33D62500714873 /* SourceEditorCommand.swift */; };
+		8DC4A4FF1D33D62500714873 /* TotsuzenNoShi.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8DC4A4F11D33D62500714873 /* TotsuzenNoShi.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DC4A4FD1D33D62500714873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DC4A4D31D33D60700714873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC4A4F01D33D62500714873;
+			remoteInfo = TotsuzenNoShi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DC4A5031D33D62500714873 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8DC4A4FF1D33D62500714873 /* TotsuzenNoShi.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DC4A4DB1D33D60700714873 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC4A4DE1D33D60700714873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DC4A4E01D33D60700714873 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DC4A4E21D33D60700714873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DC4A4E51D33D60700714873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DC4A4E71D33D60700714873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC4A4F11D33D62500714873 /* TotsuzenNoShi.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TotsuzenNoShi.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC4A4F31D33D62500714873 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8DC4A4F71D33D62500714873 /* TotsuzenNoShi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TotsuzenNoShi.entitlements; sourceTree = "<group>"; };
+		8DC4A4F81D33D62500714873 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		8DC4A4FA1D33D62500714873 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		8DC4A4FC1D33D62500714873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC4A4D81D33D60700714873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC4A4EE1D33D62500714873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC4A4F41D33D62500714873 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DC4A4D21D33D60700714873 = {
+			isa = PBXGroup;
+			children = (
+				8DC4A4DD1D33D60700714873 /* App */,
+				8DC4A4F51D33D62500714873 /* XcodeExtension */,
+				8DC4A4F21D33D62500714873 /* Frameworks */,
+				8DC4A4DC1D33D60700714873 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DC4A4DC1D33D60700714873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC4A4DB1D33D60700714873 /* App.app */,
+				8DC4A4F11D33D62500714873 /* TotsuzenNoShi.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DC4A4DD1D33D60700714873 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8DC4A4DE1D33D60700714873 /* AppDelegate.swift */,
+				8DC4A4E01D33D60700714873 /* ViewController.swift */,
+				8DC4A4E21D33D60700714873 /* Assets.xcassets */,
+				8DC4A4E41D33D60700714873 /* Main.storyboard */,
+				8DC4A4E71D33D60700714873 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8DC4A4F21D33D62500714873 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DC4A4F31D33D62500714873 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DC4A4F51D33D62500714873 /* XcodeExtension */ = {
+			isa = PBXGroup;
+			children = (
+				8DC4A4F81D33D62500714873 /* SourceEditorExtension.swift */,
+				8DC4A4FA1D33D62500714873 /* SourceEditorCommand.swift */,
+				8DC4A4FC1D33D62500714873 /* Info.plist */,
+				8DC4A4F61D33D62500714873 /* Supporting Files */,
+			);
+			path = XcodeExtension;
+			sourceTree = "<group>";
+		};
+		8DC4A4F61D33D62500714873 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DC4A4F71D33D62500714873 /* TotsuzenNoShi.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DC4A4DA1D33D60700714873 /* App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC4A4EA1D33D60700714873 /* Build configuration list for PBXNativeTarget "App" */;
+			buildPhases = (
+				8DC4A4D71D33D60700714873 /* Sources */,
+				8DC4A4D81D33D60700714873 /* Frameworks */,
+				8DC4A4D91D33D60700714873 /* Resources */,
+				8DC4A5031D33D62500714873 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DC4A4FE1D33D62500714873 /* PBXTargetDependency */,
+			);
+			name = App;
+			productName = Xcode_TotsuzenNoShi_Extension;
+			productReference = 8DC4A4DB1D33D60700714873 /* App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DC4A4F01D33D62500714873 /* TotsuzenNoShi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC4A5001D33D62500714873 /* Build configuration list for PBXNativeTarget "TotsuzenNoShi" */;
+			buildPhases = (
+				8DC4A4ED1D33D62500714873 /* Sources */,
+				8DC4A4EE1D33D62500714873 /* Frameworks */,
+				8DC4A4EF1D33D62500714873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TotsuzenNoShi;
+			productName = TotsuzenNoShi;
+			productReference = 8DC4A4F11D33D62500714873 /* TotsuzenNoShi.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DC4A4D31D33D60700714873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Safx Developers";
+				TargetAttributes = {
+					8DC4A4DA1D33D60700714873 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 745YB3A52T;
+						DevelopmentTeamName = "Yuji Matsumoto";
+						ProvisioningStyle = Automatic;
+					};
+					8DC4A4F01D33D62500714873 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 745YB3A52T;
+						DevelopmentTeamName = "Yuji Matsumoto";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8DC4A4D61D33D60700714873 /* Build configuration list for PBXProject "Xcode_TotsuzenNoShi_Extension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DC4A4D21D33D60700714873;
+			productRefGroup = 8DC4A4DC1D33D60700714873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC4A4DA1D33D60700714873 /* App */,
+				8DC4A4F01D33D62500714873 /* TotsuzenNoShi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC4A4D91D33D60700714873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC4A4E31D33D60700714873 /* Assets.xcassets in Resources */,
+				8DC4A4E61D33D60700714873 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC4A4EF1D33D62500714873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC4A4D71D33D60700714873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC4A4E11D33D60700714873 /* ViewController.swift in Sources */,
+				8DC4A4DF1D33D60700714873 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC4A4ED1D33D62500714873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC4A4F91D33D62500714873 /* SourceEditorExtension.swift in Sources */,
+				8DC4A4FB1D33D62500714873 /* SourceEditorCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DC4A4FE1D33D62500714873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC4A4F01D33D62500714873 /* TotsuzenNoShi */;
+			targetProxy = 8DC4A4FD1D33D62500714873 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DC4A4E41D33D60700714873 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DC4A4E51D33D60700714873 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DC4A4E81D33D60700714873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DC4A4E91D33D60700714873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		8DC4A4EB1D33D60700714873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.safx-dev.Xcode-TotsuzenNoShi-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8DC4A4EC1D33D60700714873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.safx-dev.Xcode-TotsuzenNoShi-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8DC4A5011D33D62500714873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XcodeExtension/TotsuzenNoShi.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XcodeExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.safx-dev.Xcode-TotsuzenNoShi-Extension.TotsuzenNoShi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8DC4A5021D33D62500714873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XcodeExtension/TotsuzenNoShi.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XcodeExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.safx-dev.Xcode-TotsuzenNoShi-Extension.TotsuzenNoShi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DC4A4D61D33D60700714873 /* Build configuration list for PBXProject "Xcode_TotsuzenNoShi_Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC4A4E81D33D60700714873 /* Debug */,
+				8DC4A4E91D33D60700714873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DC4A4EA1D33D60700714873 /* Build configuration list for PBXNativeTarget "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC4A4EB1D33D60700714873 /* Debug */,
+				8DC4A4EC1D33D60700714873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8DC4A5001D33D62500714873 /* Build configuration list for PBXNativeTarget "TotsuzenNoShi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC4A5011D33D62500714873 /* Debug */,
+				8DC4A5021D33D62500714873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DC4A4D31D33D60700714873 /* Project object */;
+}
